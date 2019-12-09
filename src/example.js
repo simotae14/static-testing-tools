@@ -1,4 +1,6 @@
-const name = 'Freddy'
+'use strict';
+
+const username = 'freddy'
 typeof name === 'strng'
 
 if (!'serviceWorker' in navigator) {
