@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "lint": "eslint ."
+    "lint": "eslint --ignore-path .gitignore ."
   },
   "keywords": [],
   "author": "Simone Taeggi <startae14@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
     "eslint": "^6.7.2"
   }
 }
